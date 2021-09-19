@@ -1,0 +1,13 @@
+.footer {
+  position: fixed;
+  bottom: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+}
+
+.footer li {
+  margin: 0.5rem;
+}
