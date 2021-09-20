@@ -2,7 +2,7 @@ import { useState } from 'react'
 import About from './components/About'
 import Header from '../Header'
 import Footer from '../Footer'
-import Project from './components/Project'
+import Work from './components/Work'
 import Contact from './components/Contact'
 import Resume from './components/Resume'
 
@@ -12,7 +12,7 @@ function Portfolio() {
   function mainPage() {
     switch (main) {
       case 'Projects':
-        return <Project />
+        return <Work />
       case 'Contact':
         return <Contact />
       case 'Resume':
