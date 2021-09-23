@@ -1,10 +1,12 @@
-import './Resume.css'
-
 function Resume() {
   return (
     <div className="section">
       <p className="section-title">Resume</p>
-      <a href="/" className="resume">
+      <a
+        href="https://drive.google.com/file/d/1E-O2UM6UkVEwh3kibf_qZqd7eMqgqilJ/view?usp=sharing"
+        className="resume"
+        target="blank"
+      >
         Download
       </a>
       <div className="resume-body">

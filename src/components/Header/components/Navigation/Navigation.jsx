@@ -1,5 +1,3 @@
-import './Navigation.css'
-
 function Navigation({ handleNav, main }) {
   const tabs = ['About', 'Projects', 'Contact', 'Resume']
   return (

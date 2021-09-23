@@ -10,7 +10,7 @@ import Contact from './components/Contact'
 import Resume from './components/Resume'
 
 function Portfolio() {
-  const [main, setMain] = useState()
+  const [main, setMain] = useState('About')
 
   function mainPage() {
     switch (main) {
@@ -26,14 +26,13 @@ function Portfolio() {
   }
 
   function handleNav(e) {
-    // setIsActive(false)
     setMain(e)
   }
 
   return (
     <div>
       <Header handleNav={handleNav} user={user.name} main={main} />
-      {mainPage(main)}
+      <div className="section"> {mainPage(main)}</div>
       <Footer links={user} />
     </div>
   )

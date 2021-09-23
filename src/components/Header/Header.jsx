@@ -1,5 +1,4 @@
 import Navigation from './components/Navigation'
-import './Header.css'
 
 function Header(props) {
   return (

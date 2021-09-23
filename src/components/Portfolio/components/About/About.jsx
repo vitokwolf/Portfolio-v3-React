@@ -1,4 +1,3 @@
-import './About.css'
 function About({ user }) {
   return (
     <div className="section">
