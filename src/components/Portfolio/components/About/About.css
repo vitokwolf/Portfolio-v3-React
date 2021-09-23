@@ -1,0 +1,21 @@
+.about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(242, 243, 246);
+}
+
+.avatar {
+  margin: 2rem;
+}
+.avatar-img {
+  border-radius: 50%;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 2rem;
+}

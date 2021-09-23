@@ -1,8 +1,9 @@
+import './About.css'
 function About({ user }) {
   return (
     <div className="about">
       <div className="avatar">
-        <img src={user.avatar_url} alt="avatar" />
+        <img src={user.avatar_url} alt="avatar" className="avatar-img" />
       </div>
       <div className="bio">
         <p>

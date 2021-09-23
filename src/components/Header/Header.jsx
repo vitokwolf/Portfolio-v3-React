@@ -4,7 +4,7 @@ import './Header.css'
 function Header(props) {
   return (
     <div className="header">
-      <h2 id="nav-name">{props.user}</h2>
+      <p id="nav-name">{props.user}</p>
       <Navigation handleNav={props.handleNav} main={props.main} />
     </div>
   )

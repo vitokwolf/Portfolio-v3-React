@@ -3,6 +3,7 @@
   justify-content: space-between;
   list-style: none;
   padding-right: 3rem;
+  font-weight: 500;
 }
 
 .nav-link {
@@ -15,5 +16,5 @@
 }
 
 .active {
-  border: 1px solid red;
+  border-bottom: 1px solid red;
 }
