@@ -10,4 +10,9 @@
 
 .footer li {
   margin: 0.5rem;
+  font-size: 3rem;
+}
+.footer li:hover {
+  cursor: pointer;
+  color: rgba(223, 158, 37, 0.7);
 }
