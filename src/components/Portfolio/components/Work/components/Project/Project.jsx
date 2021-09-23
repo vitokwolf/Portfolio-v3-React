@@ -3,7 +3,7 @@ function Project({ repo }) {
     <div className="card">
       <p>{repo.name}</p>
       <div>
-        <img src={repo.project_image} alt="project image" />
+        <img src={repo.project_image} alt="project" />
       </div>
       <div className="links">
         <a href={repo.live_url}>Live </a> <br />

@@ -2,7 +2,7 @@ function Resume() {
   return (
     <div>
       <p>Resume</p>
-      <a href="#">Download</a>
+      <a href="/">Download</a>
       <ul>
         <p>Front End</p>
         <li>HTML</li>
