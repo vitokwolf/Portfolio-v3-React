@@ -1,18 +1,11 @@
 import Project from './components/Project'
-function Work() {
+function Work({ repos }) {
   return (
     <div>
       Work
-      <div>
-        <Project />
-        <Project />
-        <Project />
-      </div>
-      <div>
-        <Project />
-        <Project />
-        <Project />
-      </div>
+      {repos.map((repo, i) => (
+        <Project key={i} repo={repo} />
+      ))}
     </div>
   )
 }

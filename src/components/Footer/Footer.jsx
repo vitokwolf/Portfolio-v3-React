@@ -1,10 +1,21 @@
 import './Footer.css'
-function Footer() {
+function Footer({ links }) {
   return (
     <div className="footer">
-      <li>Gmail</li>
-      <li>LinkedIn</li>
-      <li>Github</li>
+      <button
+        onClick={(e) => {
+          e.preventDefault()
+          window.location = `mailto: ${links.email}`
+        }}
+      >
+        Gmail
+      </button>
+      <button onClick={() => window.open(links.link_page, 'blank')}>
+        LinkedIn
+      </button>
+      <button onClick={() => window.open(links.github_page, 'blank')}>
+        Github
+      </button>
     </div>
   )
 }

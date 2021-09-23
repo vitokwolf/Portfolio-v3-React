@@ -1,4 +1,7 @@
 import { useState } from 'react'
+import repos from '../../data/repos.json'
+import user from '../../data/user.json'
+
 import About from './components/About'
 import Header from '../Header'
 import Footer from '../Footer'
@@ -12,13 +15,13 @@ function Portfolio() {
   function mainPage() {
     switch (main) {
       case 'Projects':
-        return <Work />
+        return <Work repos={repos} />
       case 'Contact':
         return <Contact />
       case 'Resume':
         return <Resume />
       default:
-        return <About />
+        return <About user={user} />
     }
   }
 
@@ -28,9 +31,9 @@ function Portfolio() {
 
   return (
     <div>
-      <Header handleNav={handleNav} />
+      <Header handleNav={handleNav} user={user.name} />
       {mainPage(main)}
-      <Footer />
+      <Footer links={user} />
     </div>
   )
 }

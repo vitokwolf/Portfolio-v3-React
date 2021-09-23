@@ -1,11 +1,13 @@
-function Project(props) {
+function Project({ repo }) {
   return (
     <div className="card">
-      <p>Name</p>
-      <div>Image</div>
+      <p>{repo.name}</p>
+      <div>
+        <img src={repo.project_image} alt="project image" />
+      </div>
       <div className="links">
-        <button>Live</button>
-        <button>Github</button>
+        <a href={repo.live_url}>Live </a> <br />
+        <a href={repo.repo_url}>Github</a>
       </div>
     </div>
   )
