@@ -9,3 +9,11 @@
   text-decoration: none;
   margin: 1rem;
 }
+
+.nav-link:hover {
+  cursor: pointer;
+}
+
+.active {
+  border: 1px solid red;
+}

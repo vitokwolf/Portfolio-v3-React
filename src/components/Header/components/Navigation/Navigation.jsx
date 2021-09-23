@@ -1,20 +1,18 @@
 import './Navigation.css'
 
-function Navigation({ handleNav }) {
+function Navigation({ handleNav, main }) {
+  const tabs = ['About', 'Projects', 'Contact', 'Resume']
   return (
     <div className="nav">
-      <li className="nav-link" onClick={() => handleNav('About')}>
-        About
-      </li>
-      <li className="nav-link" onClick={() => handleNav('Projects')}>
-        Portfolio
-      </li>
-      <li className="nav-link" onClick={() => handleNav('Contact')}>
-        Contact
-      </li>
-      <li className="nav-link" onClick={() => handleNav('Resume')}>
-        Resume
-      </li>
+      {tabs.map((tab, i) => (
+        <li
+          key={i}
+          className={`nav-link ${tab === main && `active`}`}
+          onClick={() => handleNav(tab)}
+        >
+          {tab}
+        </li>
+      ))}
     </div>
   )
 }

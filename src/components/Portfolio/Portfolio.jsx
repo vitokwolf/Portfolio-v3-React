@@ -26,12 +26,13 @@ function Portfolio() {
   }
 
   function handleNav(e) {
+    // setIsActive(false)
     setMain(e)
   }
 
   return (
     <div>
-      <Header handleNav={handleNav} user={user.name} />
+      <Header handleNav={handleNav} user={user.name} main={main} />
       {mainPage(main)}
       <Footer links={user} />
     </div>
