@@ -1,12 +1,14 @@
 import Project from './components/Project'
 function Work({ repos }) {
   return (
-    <div>
-      Work
-      {repos.map((repo, i) => (
-        <Project key={i} repo={repo} />
-      ))}
-    </div>
+    <>
+      <p className="section-title">Some of my work</p>
+      <div className="projects">
+        {repos.map((repo, i) => (
+          <Project key={i} repo={repo} />
+        ))}
+      </div>
+    </>
   )
 }
 

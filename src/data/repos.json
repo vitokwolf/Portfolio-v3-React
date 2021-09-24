@@ -1,38 +1,38 @@
 [
   {
-    "name": "name1",
-    "repo_url": "url",
-    "live_url": "live_url",
-    "project_image": "image"
+    "name": "My-Registry",
+    "repo_url": "https://github.com/vitokwolf/My-Registry",
+    "live_url": "https://my-registry-2021.herokuapp.com/",
+    "project_image": "https://github.com/vitokwolf/Portfolio-v2/blob/main/assets/images/my-registry.png?raw=true"
   },
   {
-    "name": "name1",
-    "repo_url": "url",
-    "live_url": "live_url",
-    "project_image": "image"
+    "name": "Note-Saver",
+    "repo_url": "https://github.com/vitokwolf/Note-Saver",
+    "live_url": "https://rocky-refuge-14476.herokuapp.com/",
+    "project_image": "https://github.com/vitokwolf/Portfolio-v2/blob/main/assets/images/note-saver.png?raw=true"
   },
   {
-    "name": "name1",
-    "repo_url": "url",
-    "live_url": "live_url",
-    "project_image": "image"
+    "name": "Company-Overview",
+    "repo_url": "https://github.com/vitokwolf/Company-Overview",
+    "live_url": "https://www.youtube.com/watch?v=KjzM1gHYx9A",
+    "project_image": "https://github.com/vitokwolf/Portfolio-v2/blob/main/assets/images/company-overview.png?raw=true"
   },
   {
-    "name": "name1",
-    "repo_url": "url",
-    "live_url": "live_url",
-    "project_image": "image"
+    "name": "Javascript-Code-Quiz",
+    "repo_url": "https://github.com/vitokwolf/Javascript-Code-Quiz",
+    "live_url": "https://vitokwolf.github.io/Javascript-Code-Quiz/",
+    "project_image": "https://github.com/vitokwolf/Portfolio-v2/blob/main/assets/images/js-quiz.png?raw=true"
   },
   {
-    "name": "name1",
-    "repo_url": "url",
-    "live_url": "live_url",
-    "project_image": "image"
+    "name": "Weather Dashboard",
+    "repo_url": "https://github.com/vitokwolf/Weather-dasboard-VLupascu",
+    "live_url": "https://vitokwolf.github.io/Weather-dasboard-VLupascu/",
+    "project_image": "https://github.com/vitokwolf/Portfolio-v2/blob/main/assets/images/weather.png?raw=true"
   },
   {
-    "name": "name1",
-    "repo_url": "url",
-    "live_url": "live_url",
-    "project_image": "image"
+    "name": "Run Buddy",
+    "repo_url": "https://github.com/vitokwolf/Run-Buddy",
+    "live_url": "https://vitokwolf.github.io/Run-Buddy/",
+    "project_image": "https://github.com/vitokwolf/Portfolio-v2/blob/main/assets/images/RunBuddySS.png?raw=true"
   }
 ]
