@@ -3,6 +3,7 @@
   --body-color: rgb(242, 243, 246);
   --icon-hover: rgba(223, 158, 37, 0.7);
   --dark-hover: rgba(19, 11, 0, 0.815);
+  --dark-hover-gh: rgba(63, 37, 2, 0.815);
   --nav-tab-underline: 1px solid red;
   --resume-link: rgb(0, 38, 100);
 }
@@ -180,9 +181,9 @@ textarea {
 }
 .project-title {
   text-decoration: none;
-  color: var(--icon-hover);
+  color: var(--dark-hover);
 }
 .card-link {
-  color: var(--dark-hover);
+  color: var(--dark-hover-gh);
   font-size: 4rem;
 }
